@@ -24,7 +24,7 @@
   "license": "ISC",
   "description": "",
   "scripts": {
-    "start": "nodemon index"
+    "start": "nodemon app"
   },
   "engines": {
     "node": "16.15.1"
