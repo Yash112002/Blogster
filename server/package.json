@@ -20,10 +20,13 @@
   "name": "myblog",
   "version": "1.0.0",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "Yash",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "scripts": {
+    "start": "nodemon index"
+  },
+  "engines": {
+    "node": "16.15.1"
+  }
 }
