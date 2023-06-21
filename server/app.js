@@ -36,7 +36,7 @@ app.use(passport.session());
 
 // connection with mongoDB
 
-mongoose.connect("mongodb://0.0.0.0:27017/blogDB", {
+mongoose.connect(process.env.MONGODB_URL, {
   useNewUrlParser: true,
 });
 
@@ -99,7 +99,7 @@ passport.use(
 
 // Starting content
 const homeStartingContent =
-  "Basically I am a computer science engineering student of delhi technological university. I completed my schooling from Rajkiya Pratibha Vikas Vidyalay. I love to watch movies and webseries. Cricket fascinates me a lot. I am teaching students as a home tutor from last two years. So, I am a teacher also. Best thing about me is I always remain motivated. I always tries to find the solutions to my problems which I face in everyday life. I am not very social. For example I love to be alone. I can call myself as extrovertIntrovert. You can read my blogs down below...";
+  "Introducing Blogster, the ultimate platform that caters to the needs of everyone. Whether you're a tech enthusiast, a fashion aficionado, a foodie, or a travel junkie, Blogster has something to offer you. With an extensive range of categories, our platform covers a wide spectrum of interests, ensuring that you find compelling and relevant content. Engage with passionate bloggers, gain insights, and stay updated on the latest trends. From informative articles to captivating stories, Blogster is your go-to destination. Join our inclusive community, broaden your horizons, and unleash your creativity. With Blogster, knowledge, inspiration, and entertainment are just a click away.";
 
 // authentication with google
 app.get(
