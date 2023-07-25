@@ -6,7 +6,7 @@ Blogster is a feature-rich full-stack blog website that allows users to create, 
 Blogster is designed to provide an intuitive and user-friendly platform for bloggers to create, manage, and share their posts. The website is built using Node.js, Express, and MongoDB for the backend infrastructure, while the frontend is developed with Bootstrap and EJS templates for a responsive and interactive user interface. Robust authentication and authorization functionalities are implemented using Passport, ensuring secure access to user-specific features.
 
 ## Demo
-Check out the live demo of Blogster here [https://blogster-nvxs.onrender.com/home](url).
+Check out the live demo of Blogster here https://blogster-nvxs.onrender.com/home.
 
 ## Features
 * CRUD Operations: Blogster supports all essential CRUD operations (Create, Read, Update, Delete) for blog posts, allowing users to create new posts, view existing ones, update content, and delete unwanted posts.
